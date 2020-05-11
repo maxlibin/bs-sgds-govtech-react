@@ -1,0 +1,23 @@
+{
+  "name": "bs-sgds-govtech-react",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w -ws _ ",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonReact",
+    "reason-react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "reason-react": ">=0.7.0",
+    "sgds-govtech-react": "^0.1.11"
+  },
+  "devDependencies": {
+    "bs-platform": "^7.0.1"
+  }
+}
